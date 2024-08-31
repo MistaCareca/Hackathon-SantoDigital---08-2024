@@ -48,7 +48,7 @@ O backlog foi organizado em histórias de usuário, cada uma com:
 
 
 ## Tecnologias Utilizadas
-
+Conciderando as tecnologias de dominio da equipe
 - **Backend**: Golang
 - **Frontend**: React
 - **Machine Learning**: Python (SciKit-Learn, TensorFlow)
