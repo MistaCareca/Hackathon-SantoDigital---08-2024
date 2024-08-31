@@ -25,13 +25,13 @@ As histórias de usuário foram organizadas em sprints de duas semanas, consider
 
 ## Backlog de Histórias de Usuário
 
-| História de Usuário                                                                 | Critérios de Aceitação                                                                                                 | Tarefas Técnicas                                                                                                                                   | Stakeholders Relevantes                             | Ferramentas e Tecnologias                                                         | Pontuação |
-|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------|------------|
-| **Visualizar Vendas Totais ao Longo do Tempo**                                      | - Gráfico de linha exibindo as vendas totais<br>- Filtragem por intervalo de tempo (dia, semana, mês, ano)             | - Implementar rota API (Backend)<br>- Agregar dados por intervalo (Eng. de Dados)<br>- Criar UI (Frontend)<br>- Implementar testes (Backend)        | Product Manager, Tech Lead, Analista de Negócios    | Golang, React, PostgreSQL, Docker, Jenkins, Python                                | 8          |
-| **Visualizar Produtos Mais Vendidos em Cada Categoria**                             | - Lista de produtos mais vendidos<br>- Comparação entre categorias<br>- Exportação de relatórios                       | - Implementar rota API (Backend)<br>- Agregar dados de produtos (Eng. de Dados)<br>- Criar UI (Frontend)<br>- Implementar exportação (Frontend)     | Product Manager, Tech Lead, Analista de Negócios    | Golang, React, PostgreSQL, Docker, Jenkins, Python                                | 13         |
-| **Visualizar Desempenho de Vendas por Vendedor**                                    | - KPIs de vendas por vendedor<br>- Comparação entre vendedores<br>- Análise do funil de vendas                        | - Implementar rota API (Backend)<br>- Processar dados de vendas por vendedor (Eng. de Dados)<br>- Criar UI (Frontend)<br>- Implementar testes       | Product Manager, Tech Lead, Head Data, Vendas       | Golang, React, PostgreSQL, Docker, Jenkins, Python                                | 8          |
-| **Visualizar Vendas por Região**                                                    | - Mapa interativo de vendas por região<br>- Filtros por categoria e período<br>- Previsão de vendas por região         | - Implementar rota API (Backend)<br>- Criar processamento de dados geográficos (Eng. de Dados)<br>- Criar UI (Frontend)<br>- Implementar testes     | Product Manager, Tech Lead, Analista de Negócios    | Golang, React, PostgreSQL, Docker, Jenkins, Python, TensorFlow                    | 13         |
-| **Gerenciar CRUD de Produtos**                                                      | - CRUD completo para produtos<br>- Validação e controle de versões<br>- Importação em massa de produtos                | - Implementar rota API CRUD (Backend)<br>- Criar validações e controle de versões (Backend)<br>- Criar UI para CRUD (Frontend)<br>- Implementar testes | Product Manager, Tech Lead, Analista de Negócios    | Golang, React, PostgreSQL, Docker, Jenkins                                         | 13         |
+| **ID** | **Tipo**         | **Descrição**                                                                                     | **Prioridade** | **Estimativa** | **Status** | **Responsável** | **Ferramentas/Tecnologias**                                        |
+|--------|------------------|---------------------------------------------------------------------------------------------------|----------------|----------------|------------|-----------------|-------------------------------------------------------------------------|
+| 1      | História de Usuário | **Visualizar Vendas Totais ao Longo do Tempo**<br>Como gestor de vendas, quero visualizar as vendas totais ao longo do tempo para identificar tendências e períodos de pico. | Alta           | 8              | Pendente   | Backend, Eng. de Dados, Frontend | Golang, React, PostgreSQL, Docker, Jenkins, Python                         |
+| 2      | História de Usuário | **Visualizar Produtos Mais Vendidos em Cada Categoria**<br>Como analista de marketing, quero visualizar os produtos mais vendidos em cada categoria para entender a demanda e planejar campanhas. | Alta           | 13             | Pendente   | Backend, Eng. de Dados, Frontend | Golang, React, PostgreSQL, Docker, Jenkins, Python                         |
+| 3      | História de Usuário | **Visualizar Desempenho de Vendas por Vendedor**<br>Como gerente de vendas, quero visualizar o desempenho de cada vendedor para identificar os melhores e os que precisam de suporte. | Média          | 8              | Pendente   | Backend, Eng. de Dados, Frontend | Golang, React, PostgreSQL, Docker, Jenkins, Python                         |
+| 4      | História de Usuário | **Visualizar Vendas por Região**<br>Como analista de mercado, quero visualizar as vendas por região para entender o mercado e identificar oportunidades de crescimento. | Média          | 13             | Pendente   | Backend, Eng. de Dados, Frontend | Golang, React, PostgreSQL, Docker, Jenkins, Python, TensorFlow             |
+| 5      | História de Usuário | **Gerenciar CRUD de Produtos**<br>Como administrador, quero gerenciar os produtos no sistema para manter os dados atualizados e consistentes. | Alta           | 13             | Pendente   | Backend, Frontend              | Golang, React, PostgreSQL, Docker, Jenkins                                |
 
 ## Tecnologias Utilizadas
 
@@ -41,6 +41,21 @@ As histórias de usuário foram organizadas em sprints de duas semanas, consider
 - **Banco de Dados**: PostgreSQL
 - **DevOps**: Docker, Kubernetes, Jenkins
 - **Gerenciamento de Repositório**: Git, GitHub
+
+## Guia de Configuração
+
+1. **Clone o Repositório**:
+    ```bash
+    git clone https://github.com/seu-usuario/adventureworks-data-analysis.git
+    cd adventureworks-data-analysis
+    ```
+
+2. **Configuração do Ambiente**:
+    - Certifique-se de que todas as dependências estão instaladas.
+    - Configure o banco de dados PostgreSQL e as variáveis de ambiente necessárias.
+
+3. **Execução dos Testes**:
+    - Execute os testes unitários e de integração conforme documentado nas histórias de usuário.
 
 ## Considerações Finais
 
