@@ -20,12 +20,6 @@ O backlog foi organizado em histórias de usuário, cada uma com:
 
 ## Organização em Sprints
 
-As histórias de usuário foram organizadas em sprints de duas semanas, considerando:
-
-- **Capacidade do Time**: Distribuição das tarefas de acordo com as habilidades e disponibilidade da equipe.
-- **Dependências**: Sequenciamento lógico das histórias para garantir que as funcionalidades sejam entregues de forma contínua e coerente.
-- **Riscos e Desafios**: Identificação de possíveis obstáculos e planejamento de mitigação.
-
 ## Backlog de Histórias de Usuário
 
 | **ID** | **Tipo**       | **Descrição**                                                                                         | **Prioridade** | **Estimativa** | **Status** | **Responsável**                     |
