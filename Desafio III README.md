@@ -5,7 +5,7 @@
 
 ## Visão Geral
 
-Este repositório contém o backlog de histórias de usuário para o desenvolvimento de uma aplicação web de análise de dados para a empresa fictícia AdventureWorks. A aplicação permitirá que os usuários visualizem e interajam com os dados de vendas da empresa de maneira intuitiva e informativa.
+Este repositório contém o backlog de histórias de usuário para o desenvolvimento de uma aplicação web de análise de dados para a AdventureWorks. A aplicação permitirá que os usuários visualizem e interajam com os dados de vendas da empresa de maneira intuitiva e informativa.
 
 ## Estrutura do Backlog
 
