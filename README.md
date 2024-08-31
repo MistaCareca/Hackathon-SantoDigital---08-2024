@@ -1,4 +1,7 @@
+# Hackathon-SantoDigital 08/2024
+
 # AdventureWorks Data Analysis Application
+
 
 ## Visão Geral
 
@@ -23,6 +26,8 @@ As histórias de usuário foram organizadas em sprints de duas semanas, consider
 - **Dependências**: Sequenciamento lógico das histórias para garantir que as funcionalidades sejam entregues de forma contínua e coerente.
 - **Riscos e Desafios**: Identificação de possíveis obstáculos e planejamento de mitigação.
 
+## Backlog de Histórias de Usuário
+
 | **ID** | **Tipo**       | **Descrição**                                                                                         | **Prioridade** | **Estimativa** | **Status** | **Responsável**                     |
 |--------|----------------|-------------------------------------------------------------------------------------------------------|----------------|----------------|------------|--------------------------------------|
 | 1      | Funcionalidade | Como gestor de vendas, quero visualizar as vendas totais ao longo do tempo para identificar tendências. | Alta           | 8 pontos (2 dias) | A fazer    | Front-end, Back-end, Eng. de Dados   |
@@ -30,6 +35,9 @@ As histórias de usuário foram organizadas em sprints de duas semanas, consider
 | 3      | Funcionalidade | Como gerente de vendas, quero visualizar o desempenho de vendas de cada vendedor para monitorar KPIs e identificar áreas de melhoria. | Média          | 5 pontos (1 dia) | A fazer    | Front-end, Back-end, Eng. de Dados   |
 | 4      | Funcionalidade | Como analista de mercado, quero visualizar as vendas por região em mapas interativos para identificar padrões regionais e projetar tendências futuras. | Alta           | 8 pontos (2 dias) | A fazer    | Front-end, Back-end, Eng. de Dados   |
 | 5      | Funcionalidade | Como administrador de produtos, quero criar, atualizar e deletar registros de produtos para gerenciar o catálogo de produtos. | Alta           | 8 pontos (2 dias) | A fazer    | Front-end, Back-end                  |
+
+
+## Tabela de Tarefas Técnicas
 
 | **Tarefa Técnica**                                         | **Descrição**                                                                                      | **Prioridade** | **Estimativa** | **Status** | **Responsável**     | **Ferramentas/Tecnologias**         |
 |------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------|----------------|------------|---------------------|--------------------------------------|
@@ -53,21 +61,6 @@ As histórias de usuário foram organizadas em sprints de duas semanas, consider
 - **Banco de Dados**: PostgreSQL
 - **DevOps**: Docker, Kubernetes, Jenkins
 - **Gerenciamento de Repositório**: Git, GitHub
-
-## Guia de Configuração
-
-1. **Clone o Repositório**:
-    ```bash
-    git clone https://github.com/seu-usuario/adventureworks-data-analysis.git
-    cd adventureworks-data-analysis
-    ```
-
-2. **Configuração do Ambiente**:
-    - Certifique-se de que todas as dependências estão instaladas.
-    - Configure o banco de dados PostgreSQL e as variáveis de ambiente necessárias.
-
-3. **Execução dos Testes**:
-    - Execute os testes unitários e de integração conforme documentado nas histórias de usuário.
 
 ## Considerações Finais
 
