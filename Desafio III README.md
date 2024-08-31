@@ -61,7 +61,3 @@ As histórias de usuário foram organizadas em sprints de duas semanas, consider
 - **Banco de Dados**: PostgreSQL
 - **DevOps**: Docker, Kubernetes, Jenkins
 - **Gerenciamento de Repositório**: Git, GitHub
-
-## Considerações Finais
-
-Este projeto foi desenvolvido com base nas melhores práticas de desenvolvimento ágil, com foco na entrega contínua de valor aos stakeholders. O backlog, tarefas, e organização em sprints foram pensados para otimizar o fluxo de trabalho e garantir a qualidade do produto final.
